@@ -97,9 +97,8 @@ header {
   align-items: baseline;
   flex-wrap: wrap;
 }
-.card{
+.card {
   padding: 40px 20px;
-
 }
 .card-active {
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
@@ -282,101 +281,105 @@ form {
   padding-left: 10px;
 }
 
-@media screen and (max-width:1240px) {
-  .header-image,.faq-image{
+@media screen and (max-width: 1240px) {
+  .header-image,
+  .faq-image {
     width: 400px;
   }
-  .header-text h2{
+  .header-text h2 {
     font-size: 25px;
   }
-  .companies{
+  .companies {
     width: auto;
   }
-  header{
+  header {
     height: 35vh;
   }
 }
 
-@media screen and (max-width:840px) {
-  .header-image,.faq-image{
+@media screen and (max-width: 840px) {
+  .header-image,
+  .faq-image {
     display: none;
   }
-  .header-text h2{
+  .header-text h2 {
     font-size: 15px;
   }
-  nav{
+  nav {
     display: none;
   }
-  .logo{
+  .logo {
     margin-top: 40px;
   }
-  .companies{
-    width:auto;
+  .companies {
+    width: auto;
   }
-  input{
+  input {
     width: 150px;
   }
-  .blog-content{
+  .blog-content {
     width: 200px;
   }
-  .blog-card{
+  .blog-card {
     margin-bottom: 50px;
   }
-  .logo{
+  .logo {
     padding: 10px 40px;
   }
-  .header-text{
+  .header-text {
     padding: 10px 40px;
   }
-  header{
+  header {
     height: 40vh;
   }
-  .api{
+  .api {
     padding-top: 20px;
   }
-  .download-section,.faq-section{
+  .download-section,
+  .faq-section {
     padding: 10px 30px;
   }
-  .footer-rights{
+  .footer-rights {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
     margin-top: 20px;
   }
-  .list, .logos-list{
+  .list,
+  .logos-list {
     flex-direction: column;
   }
-  .list{
+  .list {
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .logos-list{
+  .logos-list {
     margin-left: 15px;
   }
-  .vr-line{
+  .vr-line {
     display: none;
   }
-  .footer-section{
+  .footer-section {
     padding: 30px;
   }
-  .blog-cards{
+  .blog-cards {
     padding: 10px 30px;
   }
-  form{
+  form {
     flex-direction: column;
   }
-  .blog-image img{
+  .blog-image img {
     height: 250px;
     width: 300px;
   }
 }
 
-@media screen and (max-width:280px) {
-  .blog-image img{
+@media screen and (max-width: 280px) {
+  .blog-image img {
     height: 150px;
     width: 200px;
   }
-  .blog-content{
+  .blog-content {
     width: 100px;
   }
 }
